@@ -1,0 +1,60 @@
+@import "heading.css";
+@import "parragraph.css";
+
+* { font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+}
+
+div * { font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.sitelink {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+p.sitelink {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+#tonyquote{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+p.sitelink {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+span#tonyname{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+}
+#tutorials ol li{
+	color: purple;
+}
+#tutorials ul li{
+	color: green;
+}
+
+h3 + p{
+	font-style: italic;
+}
+h3 + p > a{
+	color: orange;
+}
+
+p[class]{
+	background: gray;
+}
+
+p[id]{
+	background: magenta;
+}
+*[alt~="nintendo"] {background: grey}
+
+
+
+
+
+
+
+
+
+
